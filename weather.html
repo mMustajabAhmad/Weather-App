@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <title>Weather Forecast</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js"></script>
+</head>
+
+<body>
+  <h1>Weather Forecasting App</h1>
+  <div class="main">
+    <input type="text" placeholder="City : " id="city" onkeydown="displayWeather()" />
+    <div class="detail">&nbsp;&nbsp; Weather Detail</div>
+    <div id="detail">
+      <ul style="color: rgba(255, 255, 255); text-decoration: none; font-size: x-large">
+        Country: <span id="country"></span><br />
+        Temperature:<span id="temp"></span><br />
+        Minimum Temperarture:<span id="mintemp"></span><br />
+        Description:<span id="main"></span>
+      </ul>
+    </div>
+  </div>
+</body>
+
+</html>
